@@ -1,10 +1,9 @@
 --
 -- Declarations
 --
-local NumTemplates, NumPoints, SquareSize, Origin, Diagonal, HalfDiagonal, AngleRange, AnglePrecision = nil
-local Point, Rectangle, Template, Result, DollarRecognizer, Resample, IndicativeAngle, RotateBy, ScaleTo, TranslateTo, Vectorize, OptimalCosineDistance, DistanceAtBestAngle, DistanceAtAngle, Centroid, BoundingBox, PathDistance, PathLength, Distance, Deg2Rad, Rad2Deg = nil
+local NumTemplates, NumPoints, SquareSize, Origin, Diagonal, HalfDiagonal, AngleRange, AnglePrecision
+local Point, Rectangle, Template, Result, DollarRecognizer, Resample, IndicativeAngle, RotateBy, ScaleTo, TranslateTo, Vectorize, OptimalCosineDistance, DistanceAtBestAngle, DistanceAtAngle, Centroid, BoundingBox, PathDistance, PathLength, Distance, Deg2Rad, Rad2Deg
 local sqrt, atan2, cos, sin, atan, acos, abs, min, pi, Infinity = math.sqrt,math.atan2, math.cos, math.sin, math.atan, math.acos, math.abs, math.min, math.pi, math.huge
-
 --
 -- Point class
 --
